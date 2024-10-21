@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(45deg, #ff005a, #6200ea);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.music-player-section {
+    text-align: center;
+}
+
+.music-player-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff005a;
+}
+
+.cover-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.music-player {
+    width: 100%;
+    max-width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
