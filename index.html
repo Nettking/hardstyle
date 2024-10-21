@@ -3,31 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hardstyle Artist - Listen to the latest track and explore the world of hardstyle music.">
-    <title>Hardstyle Artist</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Hardstyle Producer - Selling high-energy hardstyle beats and tracks.">
+    <title>Hardstyle Beats Producer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <a href="#">HardstyleBeats</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#store">Store</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
     <header>
         <div class="header-content">
-            <h1>Hardstyle Beats</h1>
-            <p>Feel the energy. Listen to the power.</p>
+            <h1>Feel the Power of Hardstyle</h1>
+            <p>High-energy beats for your next project or set.</p>
+            <a href="#store" class="btn">Buy Beats</a>
         </div>
     </header>
 
-    <main>
-        <section class="music-player-section">
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About the Producer</h2>
+            <p>As a passionate hardstyle producer, I create intense, high-energy beats that resonate with the core of the genre. My music is designed for DJs, video creators, and anyone looking to add that electrifying hardstyle vibe to their work. Whether you're looking for a custom track or pre-made beats, I've got you covered.</p>
+        </div>
+    </section>
+
+    <!-- Music Player Section -->
+    <section id="music" class="section">
+        <div class="container">
             <h2>Latest Track</h2>
             <img src="your-image.jpg" alt="Album cover or artist image" class="cover-image">
             <audio controls class="music-player">
                 <source src="your-song.mp3" type="audio/mp3">
                 Your browser does not support the audio element.
             </audio>
-        </section>
-    </main>
+        </div>
+    </section>
 
+    <!-- Store Section -->
+    <section id="store" class="section">
+        <div class="container">
+            <h2>Buy Hardstyle Beats</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="beat1.jpg" alt="Beat 1">
+                    <h3>Hardstyle Beat 1</h3>
+                    <p>$50</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product">
+                    <img src="beat2.jpg" alt="Beat 2">
+                    <h3>Hardstyle Beat 2</h3>
+                    <p>$60</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product">
+                    <img src="beat3.jpg" alt="Beat 3">
+                    <h3>Hardstyle Beat 3</h3>
+                    <p>$75</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Hardstyle Artist. All Rights Reserved.</p>
+        <p>&copy; 2024 Hardstyle Beats Producer. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
